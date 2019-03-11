@@ -1,6 +1,8 @@
 body {
   display: flex;
 }
+/* Header */
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -32,8 +34,14 @@ header nav {
   padding-right: 40px;
   display: inline-block;
 }
-main {
+
+/* Content */
+
+content {
   display: flex;
+  width: 1300px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 h1 {
   font-family: Georgia;
@@ -57,12 +65,13 @@ p {
   width: 630px;
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
 }
 .main {
   border: 2px dotted green;
   width: 630px;
 }
-.main_img {
+.main .imgbox {
   display: flex;
   background-image: url("Resources/Images/glasses.png");
 }
@@ -79,21 +88,20 @@ p {
 #third {
   border: 2px dotted aquamarine;
 }
-#fourth {
-  border: 2px dotted aquamarine;
-}
-#fifth {
-  border: 2px dotted aquamarine;
+.imgbox {
+  border: 2px solid yellow;
 }
 .column2 {
   border: 3px dotted blue;
   width: 300px;
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
 }
 .column3 {
   border: 3px dotted blue;
   width: 240px;
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
 }
