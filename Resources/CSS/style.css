@@ -1,6 +1,19 @@
+/* Universal */
+
 body {
   display: flex;
 }
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 /* Header */
 
 header {
@@ -43,23 +56,21 @@ content {
   margin: 0 auto 78px auto;
   padding-top: 116px;
 }
-h1 {
+.lead-story .imgbox span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: cyan;
 }
-h2 {
+.story span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: cyan;
 }
-p {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
+
+/* Column 1 */
+
 .column1 {
   border: 3px dotted blue;
   width: 630px;
@@ -67,15 +78,15 @@ p {
   flex-direction: column;
   margin-right: 32px;
 }
-.main {
+.lead-story {
   border: 2px dotted green;
   width: 630px;
 }
-.main .imgbox {
+.lead-story .imgbox {
   display: flex;
   background-image: url("Resources/Images/glasses.png");
 }
-.other {
+.others {
   border: 2px dotted green;
   display: flex;
   width: 630px;
@@ -91,6 +102,9 @@ p {
 .imgbox {
   border: 2px solid yellow;
 }
+
+/* Column 2 */
+
 .column2 {
   border: 3px dotted blue;
   width: 300px;
@@ -98,6 +112,9 @@ p {
   flex-direction: column;
   margin-right: 32px;
 }
+
+/* Column 3 */
+
 .column3 {
   border: 3px dotted blue;
   width: 240px;
