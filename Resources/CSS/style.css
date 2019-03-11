@@ -6,13 +6,30 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  Height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
 }
-header p {
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+.logo span {
   color: mediumaquamarine;
 }
-nav {
+header nav {
+  padding-right: 40px;
   display: inline-block;
 }
 main {
@@ -56,16 +73,16 @@ p {
   justify-content: flex-start;
   overflow: wrap;
 }
-.second {
+#second {
   border: 2px dotted aquamarine;
 }
-.third {
+#third {
   border: 2px dotted aquamarine;
 }
-.fourth {
+#fourth {
   border: 2px dotted aquamarine;
 }
-.fifth {
+#fifth {
   border: 2px dotted aquamarine;
 }
 .column2 {
