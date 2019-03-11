@@ -1,0 +1,82 @@
+body {
+  display: flex;
+}
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header p {
+  color: mediumaquamarine;
+}
+nav {
+  display: inline-block;
+}
+main {
+  display: flex;
+}
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: cyan;
+}
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: cyan;
+}
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.column1 {
+  border: 3px dotted blue;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  border: 2px dotted green;
+  width: 630px;
+}
+.main_img {
+  display: flex;
+  background-image: url("Resources/Images/glasses.png");
+}
+.other {
+  border: 2px dotted green;
+  display: flex;
+  width: 630px;
+  justify-content: flex-start;
+  overflow: wrap;
+}
+.second {
+  border: 2px dotted aquamarine;
+}
+.third {
+  border: 2px dotted aquamarine;
+}
+.fourth {
+  border: 2px dotted aquamarine;
+}
+.fifth {
+  border: 2px dotted aquamarine;
+}
+.column2 {
+  border: 3px dotted blue;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.column3 {
+  border: 3px dotted blue;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
