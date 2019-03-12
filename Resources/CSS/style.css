@@ -96,8 +96,8 @@ content {
 .lead-story {
   border: 2px dotted green;
 }
-.lead-story .glasses.imgbox {
-  background-image: url(Resources/Images/glasses.jpg);
+#glasses {
+  background-image: url("Resources/Images/glasses.png");
   width: 630px;
   margin-top: 0;
   font-size: 40px;
