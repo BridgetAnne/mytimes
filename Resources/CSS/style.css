@@ -51,11 +51,10 @@ p {
   color: black;
 }
 .imgbox {
-  border: 2px solid yellow;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
-  color: cyan;
+  color: white;
   font-size: 30px;
   display: flex;
   flex-direction: column;
@@ -72,7 +71,7 @@ p {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  color: cyan;
+  color: white;
 }
 
 /* Content */
@@ -87,30 +86,28 @@ content {
 /* Column 1 */
 
 .column1 {
-  border: 3px dotted blue;
   width: 630px;
   display: flex;
   flex-direction: column;
   margin-right: 32px;
 }
-.lead-story {
-  border: 2px dotted green;
-}
 .imgbox.glasses {
-  background-image: url("Resources/Images/glasses.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   width: 630px;
   margin-top: 0;
   font-size: 40px;
   text-align: left;
 }
+.imgbox.glasses span {
+  padding-left: 20px;
+}
 .imgbox.autumn {
-  background-image: url("Resources/Images/autumn.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 }
 .imgbox.picman {
-  background-image: url("Resources/Images/picman.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
 }
 .others {
-  border: 2px dotted green;
   display: flex;
   width: 630px;
   justify-content: flex-start;
@@ -118,35 +115,32 @@ content {
   justify-content: space-between;
   margin-top: 17px;
 }
-.story {
-  border: 2px dotted aquamarine;
-}
 
 /* Column 2 */
 
 .column2 {
-  border: 3px dotted blue;
   width: 300px;
   display: flex;
   flex-direction: column;
   margin-right: 32px;
 }
 .imgbox.ceocat {
-  background-image: url("Resources/Images/catceo.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
 }
 
 /* Column 3 */
 
 .column3 {
-  border: 3px dotted blue;
   width: 240px;
   display: flex;
   flex-direction: column;
   margin-right: 32px;
 }
-.bite {
+.column3 h2 {
   font-size: 16px;
   font-weight: bold;
+}
+.bite {
   margin: 0;
   border-bottom: 1px solid black;
   background-color: whitesmoke;
