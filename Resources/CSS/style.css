@@ -96,12 +96,18 @@ content {
 .lead-story {
   border: 2px dotted green;
 }
-.lead-story .glasses.imgbox {
+#glasses.imgbox {
   background-image: url("Resources/Images/glasses.png");
   width: 630px;
   margin-top: 0;
   font-size: 40px;
   text-align: left;
+}
+#autumn {
+  background-image: url("Resources/Images/autumn.png");
+}
+#picman {
+  background-image: url("Resources/Images/picman.png");
 }
 .others {
   border: 2px dotted green;
@@ -125,6 +131,9 @@ content {
   flex-direction: column;
   margin-right: 32px;
 }
+#ceocat {
+  background-image: url("Resources/Images/catceo.png");
+}
 
 /* Column 3 */
 
@@ -139,7 +148,7 @@ content {
   font-size: 16px;
   font-weight: bold;
   margin: 0;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   background-color: whitesmoke;
   font-family: Verdana;
   font-size: 12px;
