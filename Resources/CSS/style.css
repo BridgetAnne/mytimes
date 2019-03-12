@@ -96,17 +96,17 @@ content {
 .lead-story {
   border: 2px dotted green;
 }
-#glasses.imgbox {
+.imgbox.glasses {
   background-image: url("Resources/Images/glasses.png");
   width: 630px;
   margin-top: 0;
   font-size: 40px;
   text-align: left;
 }
-#autumn {
+.imgbox.autumn {
   background-image: url("Resources/Images/autumn.png");
 }
-#picman {
+.imgbox.picman {
   background-image: url("Resources/Images/picman.png");
 }
 .others {
@@ -131,7 +131,7 @@ content {
   flex-direction: column;
   margin-right: 32px;
 }
-#ceocat {
+.imgbox.ceocat {
   background-image: url("Resources/Images/catceo.png");
 }
 
