@@ -31,6 +31,9 @@ header nav {
   padding-right: 40px;
   display: inline-block;
 }
+a {
+  color: black;
+}
 
 /* Universal */
 
